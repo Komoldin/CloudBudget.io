@@ -1,0 +1,525 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-image: url(../img/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-position: center;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    height: 100%;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    text-align: left;
+}
+.btn {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px 29px;
+}
+
+.title {
+    text-align: center;
+}
+
+.header h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: 'Lato ', sans-serif;
+    margin-top: 177px;
+}
+
+.header p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.title button {
+    background: #FFFFFF;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin-top: 20px;
+    color: #ED4C5C;
+    margin-bottom: 120px;
+}
+
+.video {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.managment h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 40px;
+    color: #000000;
+}
+
+.managment p {
+    width: 80%;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.learn {
+    font-size: 14px;
+    line-height: 140%;
+    color: #ED4C5C;
+}
+
+.learn:hover {
+    text-decoration: none;
+    color: #ED4C5C;
+}
+
+.title {
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.features {
+    height: 90vh;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.features img {
+    position: relative;
+    border-radius: 8px;
+}
+
+.features .subtitle {
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    left: 30px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.subtitle h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.subtitle p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.subtitle a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    color: #ED4C5C;
+}
+
+.technology {
+    text-align: center;
+    height: 80vh;
+}
+
+.technology-title {
+    position: relative;
+    text-align: center;
+}
+
+.technology-title img {
+    position: absolute;
+    text-align: center;
+    top: 24%;
+    left: 35%;
+    right: 35%;
+    width: 80px;
+    height: 80px;
+}
+
+.technology span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 120px;
+    padding-bottom: 20px;
+    color: rgba(16, 16, 16, 0.08);
+}
+
+.technology h4 {
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.technology p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.focus {
+    background-color: #ED4C5C;
+    height: 100%;
+}
+
+.focus img {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.focus-photo {
+    text-align: center;
+    position: relative;
+}
+
+.focus-1 {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.focus-2,
+.focus-3 {
+    position: absolute;
+    top: 200px;
+}
+
+.focus p img {
+    margin-right: 20px;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.contact h1 {
+    padding-top: 117px;
+}
+
+.focus-photo-center {
+    position: relative;
+    z-index: 1;
+
+}
+.focus-photo-left {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.focus-photo-right {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    bottom: 0;
+}
+
+.contact form {
+    padding-top: 117px;
+}
+
+.contact input {
+    margin-bottom: 25px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-right: 32px;
+    padding: 15px 30px;
+    width: 40%;
+}
+
+.contact .input-phone {
+    width: 87%;
+}
+
+.input-button {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 25px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+    color: white;
+}
+
+footer {
+    background-color: #FAFAFA;
+    margin-top: 20px;
+}
+
+footer ul li a {
+    color: black;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer h5 {
+    text-transform: none;
+    padding-top: 80px;
+}
+
+.title h1 {
+    margin-top: 10%;
+}
+
+@media screen and (max-width:1200px) {
+    .features .row .col-xl-4 {
+        margin-bottom:200px;
+        height: 100%;
+        width: 100%;
+
+    }
+    .features .row .col-xl-4 .subtitle {
+        margin-right: 24%;
+        margin-left: 24%;
+        margin-bottom: 20%;
+    }
+    .features {
+        height: 100%;
+    }
+    .managment .row .col-xl-6 {
+        margin-bottom: 40px;
+    }
+    .technology-title img {
+        position: absolute;
+        top:24%;
+        left: 43.5%;
+        right: 43.5%;
+        width: 80px;
+        height: 80px;
+    }
+    .title h1{
+        margin-top: 0;
+        font-size: 60px;
+
+    }
+    .title p{
+        font-size: 18px;
+    }
+    .navbar.navbar-expand-lg{
+        padding-top:0px;
+    }
+    .technology {
+        height: 100%;
+    }
+    .technology-title{
+        margin-bottom: 40px;
+    }
+    body {
+        width: 100%;
+    }
+    .features .subtitle {
+        position: absolute;
+        top: 200px;
+        right: 30px;
+        left: 30px;
+        padding: 70px 50px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    .focus h1 {
+        width: 100%;
+    }
+    .focus-photo-right {
+        position: absolute;
+        top: 25px;
+        left: 38%;
+        bottom: 0;
+    }
+    .focus-photo-left {
+        right: 20%;
+    }
+
+}
+@media screen and (max-width:500px){
+    .title h1 {
+        font-size: 36px;
+    }
+    .features img {
+        width: 100%;
+    }
+    .features .row .col-xl-4  {
+        margin-bottom: 300px;
+    }
+    .features .subtitle {
+        padding: 20px;
+    }
+ }
+@media screen and (max-width:1190px) {
+    .technology-title img{
+        position: absolute;
+        top: 24%;
+        left: 31.5%;
+        right: 43.5%;
+        width: 80px;
+        height: 80px;
+    }
+    footer p img {
+        width: 100%;
+    }
+    .features img {
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .technology-title img {
+        position: absolute;
+        top:24%;
+        left: 43.5%;
+        right: 43.5%;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .contact {
+        height: 100%;
+    }
+    .focus-photo-center,
+    .focus-photo-left,
+    .focus-photo-right {
+        width: 80%;
+    }
+
+    .features .row .col-xl-4 .subtitle {
+        width: 60%;
+        margin-right: 21%;
+        margin-left: 17%;
+    }
+    .focus-photo-left {
+        height: 50%;
+        position: absolute;
+        left: 17%;
+        top: 3%;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    
+    .focus-photo-right {
+        position: absolute;
+        left: 15%;
+    }
+    .focus-photo-right {
+        position: absolute;
+        left: 3%;
+        height: 50%;
+        top: 3%;
+    }
+
+    .technology-title img {
+        position: absolute;
+        top: 24%;
+        left: 40.5%;
+        right: 43.5%;
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+
+ @media screen and (max-width:700px) {
+     .features img {
+        width: 80%;
+     }
+     
+ }
+
+@media screen and (max-width:400px){
+    .technology-title img {
+        position: absolute;
+        top: 24%;
+        left: 40.5%;
+        right: 43.5%;
+        width: 80px;
+        height: 80px;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+}
+}
+
+@media screen and (max-width:380px) {
+    .features .row .col-xl-4 .subtitle {
+        width: 60%;
+        margin-right: 18%;
+        margin-left: 13%;
+        top: 55%;
+    }
+}
